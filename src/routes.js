@@ -10,10 +10,18 @@ function Routes(){
     return(
         <Drawer.Navigator>
             <Drawer.Screen
-                nome='Home'
+                name="Home"
                 component={Home}
+
+            />
+
+            <Drawer.Screen
+                name="Search"
+                component={Search}
 
             />
         </Drawer.Navigator>
     )
 }
+
+export default Routes;
