@@ -3,6 +3,7 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 
 import Home from './pages/Home';
 import Search from './pages/Search';
+import Menu from './components/Menu';
 
 const Drawer = createDrawerNavigator();
 
