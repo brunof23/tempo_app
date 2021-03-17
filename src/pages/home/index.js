@@ -3,6 +3,7 @@ import { SafeAreaView, Text, StyleSheet } from 'react-native';
 
 import Menu from '../../components/Menu';
 import Header from '../../components/Header';
+import Conditions from '../../components/Conditions';
 
 export default function Home(){
     return(
@@ -11,6 +12,8 @@ export default function Home(){
 
             <Header/>
 
+            <Conditions/>
+            
         </SafeAreaView>
     )
 }
